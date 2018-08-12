@@ -1,0 +1,93 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Titillium Web';
+}
+
+h1, h2{
+	text-align: center;
+}
+
+#title{
+	background: steelblue;
+	margin: 0;
+	height: 100px;
+	color: white;
+	padding-top: 50px;
+	font-size: 50px;
+}
+
+table{
+	margin: 50px auto 0 auto;
+	border: 2px solid black;
+}
+
+td{
+	width:100px;
+	height:100px;
+	text-align: center;
+	color: gray;
+	background: white;
+}
+
+.vertical{
+	border-left:1px solid black;
+	border-right:1px solid black;
+}
+
+.horizontal{
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+}
+
+input{
+	height:100%;
+	width:100%;
+	border: 0;
+}
+
+.invisible{
+	display: none;
+}
+
+div{
+	background: white;
+	height: 40px;
+	text-align: center;
+}
+
+button{
+	border:none;
+	background: none;
+	text-transform: uppercase;
+	height:100%;
+	font-weight: 700;
+	color: steelblue;
+	letter-spacing: 1px;
+	font-size: 15px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	width: 150px;
+}
+
+button:hover{
+	color:white;
+	background-color: steelblue;
+}
+
+.taken{
+	text-align: center;
+	font-weight: bold;
+	color: steelblue;
+}
+
+span{
+	display: inline-block;
+	width: 20%;
+	text-align: center;
+	text-transform: uppercase;
+	color: steelblue;
+	font-weight: bold;
+}
